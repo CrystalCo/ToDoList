@@ -3,6 +3,7 @@ import './App.css';
 
 import GiftList from "../GiftList/GiftList";
 import GiftItems from "../GiftItems/GiftItems";
+import LoginPage from "../Login/Login";
 
 class App extends Component {
     constructor(props) {
@@ -71,6 +72,9 @@ class App extends Component {
                             entries={this.state.items} 
                             deleteItem={this.deleteItem} 
                         />
+                    </div>
+                    <div className="Login">
+                        <LoginPage />
                     </div>
                 </div>
             </div>
